@@ -36,6 +36,7 @@ var studentInfo = new Object();
 //another way to create an object is object.create
 
 
+
 // ES6 practice
 
 // const calcArea = (radius) => 3.14 * radius**2;
