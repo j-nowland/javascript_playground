@@ -10,6 +10,7 @@
 
 
 // Define the game board
+// All cells are initially hidden and not flagged
 const gameBoard = [
 	[{ value: '', revealed: false, flagged: false }, { value: '', revealed: false, flagged: false }, { value: '', revealed: false, flagged: false }],
 	[{ value: '', revealed: false, flagged: false }, { value: '', revealed: false, flagged: false }, { value: '', revealed: false, flagged: false }],
