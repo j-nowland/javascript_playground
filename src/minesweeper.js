@@ -90,6 +90,14 @@ const { stdin: input, stdout: output } = require("node:process");
 
 const rl = readline.createInterface({ input, output });
 
+const askQuestion = async (question) => {
+    let input = await rl.question(question);
+    rl.close();
+// validation
+    if (input.match(/\D/) && Number(input) < 100) {} //non digit characters *uppercase is negation*
+    // if (/\w/)) >> word characters
+}
+
 (async () => {
     let input = await rl.question("What would you like to do?\n");
     rl.close();
